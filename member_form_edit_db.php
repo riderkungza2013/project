@@ -4,20 +4,26 @@
 include('condb.php');  //ไฟล์เชื่อมต่อกับ database ที่เราได้สร้างไว้ก่อนหน้าน้ี
 
 //สร้างตัวแปรสำหรับรับค่าที่นำมาแก้ไขจากฟอร์ม
-  $a_id = $_REQUEST["a_id"];
-  $a_user = $_REQUEST["a_user"];
-  $a_pass = $_REQUEST["a_pass"];
-  $a_name = $_REQUEST["a_name"];
-
+  $member_id = $_REQUEST["member_id"];
+  $m_user = $_REQUEST["m_user"];
+  $m_pass = $_REQUEST["m_pass"];
+  $m_name = $_REQUEST["m_name"];
+  $m_email = $_REQUEST["m_email"];
+  $m_tel = $_REQUEST["m_tel"];
+  $m_address = $_REQUEST["m_address"];
 //ทำการปรับปรุงข้อมูลที่จะแก้ไขลงใน database 
   
-  $sql = "UPDATE tbl_admin SET  
-      a_user='$a_user' , 
-      a_pass='$a_pass' , 
-      a_name='$a_name' 
-      WHERE a_id='$a_id' ";
+  $sql = "UPDATE tbl_member SET  
+      m_user='$m_user', 
+      m_pass='$m_pass', 
+      m_name='$m_name',
+      m_email='$m_email',
+      m_tel='$m_tel', 
+      m_address='$m_address' 
+      WHERE member_id='$member_id' ";
 
 $result = mysqli_query($con, $sql) or die ("Error in query: $sql " . mysqli_error());
+
 mysqli_close($con); //ปิดการเชื่อมต่อ database 
 
 //จาวาสคริปแสดงข้อความเมื่อบันทึกเสร็จและกระโดดกลับไปหน้าฟอร์ม
@@ -25,7 +31,7 @@ mysqli_close($con); //ปิดการเชื่อมต่อ database
   if($result){
   echo "<script type='text/javascript'>";
   echo "alert('เเก้ไขข้อมูลสำเร็จ!');";
-  echo "window.location = 'admin.php'; ";
+  echo "window.location = 'member.php'; ";
   echo "</script>";
   }
   else{

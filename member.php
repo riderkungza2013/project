@@ -30,7 +30,7 @@
                         include('member_form_add.php');
                         //ถ้าเเก้ไขให้ไป เเก้ไข
                     } elseif ($act == 'edit') {
-                        include('admin_form_edit.php');
+                        include('member_from_edit.php');
                         //ถ้าไม่มีการกระทำให้กลับไปหน้า หลัก
                     } else {
                         include('member_list.php');
