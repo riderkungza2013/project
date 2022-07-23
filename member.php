@@ -18,8 +18,8 @@
                     <?php include('menu_left.php'); ?>
                 </div>
 
-                <div class="col-md-6">
-                    <a href="admin.php?act=add" class="btn-info btn-sm"> เพิ่ม </a>
+                <div class="col-md-9">
+                    <a href="member.php?act=add" class="btn-info btn-sm"> เพิ่ม </a>
                     <p></p>
 
                     <?php
@@ -27,13 +27,13 @@
                     $act = $_GET['act'];
                     //if ถ้า = add ให้ include หน้า add_product
                     if ($act == 'add') {
-                        include('admin_form_add.php');
+                        include('member_form_add.php');
                         //ถ้าเเก้ไขให้ไป เเก้ไข
                     } elseif ($act == 'edit') {
                         include('admin_form_edit.php');
                         //ถ้าไม่มีการกระทำให้กลับไปหน้า หลัก
                     } else {
-                        include('admin_list.php');
+                        include('member_list.php');
                     }
                     ?>
                 </div>
