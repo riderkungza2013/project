@@ -4,6 +4,7 @@
 <?php include('h.php');?>
 <head>
   <body>
+    <!-- ส่วนของ navber -->
     <div class="container">
   <?php include('navbar.php');?>
   <p></p>
