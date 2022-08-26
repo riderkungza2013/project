@@ -16,14 +16,15 @@ extract($row);
     <div class="form-group">
         <div class="col-sm-2" align="left"> Username </div>
         <div class="col-sm-6" align="left">
-            <input name="a_user" type="text" required class="form-control" id="a_user" value="<?=$a_user;?>" placeholder="username" pattern="^[a-zA-Z0-9]+$" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2" />
+        <!-- <input name="a_user" type="text" required class="form-control" id="a_user" value="<?=$a_user;?>" placeholder="username" pattern="^[a-zA-Z0-9]+$" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2" required />     -->
+        <input name="a_user" type="text" required class="form-control" id="a_user" value="<?=$a_user;?>" placeholder="username" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2" required />
         </div>
     </div>
 
     <div class="form-group">
         <div class="col-sm-2" align="left"> Password </div>
         <div class="col-sm-6" align="left">
-            <input name="a_pass" type="password" required class="form-control" id="a_pass" value="<?=$a_pass;?>" placeholder="password" pattern="^[a-zA-Z0-9]+$" minlength="2" />
+            <input name="a_pass" type="password" required class="form-control" id="a_pass" value="<?=$a_pass;?>" placeholder="password" pattern="^[a-zA-Z0-9]+$" minlength="2" required/>
         </div>
     </div>
     <div class="form-group">

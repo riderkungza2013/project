@@ -11,7 +11,7 @@
                   //หัวข้อตาราง 
                     echo "
                     <tr bgcolor = '#85929E'>
-                      <td>id</td>
+                      <td>ลำดับ</td>
                       <td>user</td>
                       <td>pass</td>
                       <td>ชื่อ</td>
