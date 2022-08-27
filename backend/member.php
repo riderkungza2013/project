@@ -14,12 +14,13 @@
             <p></p>
             <div class="row">
                 <div class="col-md-3">
+                สวัสดี คุณ <?php echo $a_name; ?>
                     <!-- Left side column. contains the logo and sidebar -->
                     <?php include('menu_left.php'); ?>
                 </div>
 
-                <div class="col-md-6">
-                    <a href="type.php?act=add" class="btn-info btn-sm"> เพิ่ม </a>
+                <div class="col-md-9">
+                    <a href="member.php?act=add" class="btn-info btn-sm"> เพิ่ม </a>
                     <p></p>
 
                     <?php
@@ -27,13 +28,13 @@
                     $act = $_GET['act'];
                     //if ถ้า = add ให้ include หน้า add_product
                     if ($act == 'add') {
-                        include('type_form_add.php');
+                        include('member_form_add.php');
                         //ถ้าเเก้ไขให้ไป เเก้ไข
                     } elseif ($act == 'edit') {
-                        include('type_form_edit.php');
+                        include('member_from_edit.php');
                         //ถ้าไม่มีการกระทำให้กลับไปหน้า หลัก
                     } else {
-                        include('type_list.php');
+                        include('member_list.php');
                     }
                     ?>
                 </div>

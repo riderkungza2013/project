@@ -25,7 +25,7 @@ echo  ' <table class="table table-hover">';
     echo "<td>" .$row["p_id"] .  "</td> ";
     echo "<td>" .$row["type_name"] .  "</td> ";
     echo "<td>" .$row["p_name"] .  "</td> ";
-    echo "<td align=center>"."<img src='p_img/".$row[p_img]."' width='100'>"."</td>";
+    echo "<td align=center>"."<img src='p_img/".$row["p_img"]."' width='100'>"."</td>";
     //แก้ไขข้อมูล
     echo "<td><a href='product.php?act=edit&ID=$row[0]' class='btn btn-warning btn-xs'>เเก้ไข</a></td> ";
     

@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-<?php include('h.php');?>
-<head>
-  <body>
-    <!-- ส่วนของ navber -->
-    <div class="container">
-  <?php include('navbar.php');?>
-  <p></p>
+<?php session_start(); ?>
+<?php include('h.php'); ?>
+
+<body>
+
+  <div class="container">
+    <?php include('navbar2.php'); ?>
+    <img src="test.png" class="img-fluid" alt="Responsive image">
+    <?php include('navbar.php'); ?>
     <div class="row">
       <div class="col-md-3">
-        <!-- Left side column. contains the logo and sidebar -->
-        <?php include('menu_left.php');?>
-        <!-- Content Wrapper. Contains page content -->
+        <?php include('menu.php'); ?>
       </div>
     </div>
   </div>
-  </body>
+  </div>
+</body>
+
 </html>
