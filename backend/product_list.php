@@ -13,7 +13,7 @@ $result = mysqli_query($con, $query);
 echo  ' <table class="table table-hover">';
   //หัวข้อตาราง
     echo "<tr>
-      <td width='5%'>id</td>
+      <td width='5%'>ลำดับ</td>
       <td width=70%>ประเภท</td>
       <td width=30%>ชื่อ</td>
       <td width=25%>รูปภาพ</td>

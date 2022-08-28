@@ -12,12 +12,15 @@ width:100%;
     <div class="col-md-4"></div>
     <div class="col-md-5" style="background-color:#708090">
       <h3 align="center" >
+      <img src="Logo1.png"  width="150" class="rounded" alt="light ">
+      <br>
       <span class="glyphicon glyphicon-lock "> </span>
-      ร้านขายยาวุฒิ เภสัช </h3>
+      </h3>
       <form  name="formlogin" action="checklogin.php" method="POST" id="login" class="form-horizontal">
         <div class="form-group">
-          <div class="col-sm-12">
-            <input type="text"  name="a_user" class="form-control" required placeholder="ชื่อผู้ใช้" />
+          <div class="col-sm-12">   
+        <input type="text"  name="a_user" class="form-control" required placeholder="ชื่อผู้ใช้" />
+            
           </div>
         </div>
         <div class="form-group">

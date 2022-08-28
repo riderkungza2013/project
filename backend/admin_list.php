@@ -15,7 +15,7 @@ $row_am = mysqli_fetch_assoc($result);
   $(document).ready(function() {
     $('#example1').DataTable({
       "aaSorting": [
-        [0, 'ASC']
+        [3, 'ASC']
       ],
       //"lengthMenu":[[20,50, 100, -1], [20,50, 100,"All"]]
     });

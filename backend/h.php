@@ -19,6 +19,7 @@ error_reporting(error_reporting() & ~E_NOTICE);
 <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js">
 </script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <script>
   $(document).ready(function() {
     $('#example').DataTable({

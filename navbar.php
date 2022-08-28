@@ -1,4 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+<div class="text-center">
+  <img src="Logo1.png"  width="80" class="rounded" alt="light ">
+</div>
   <a class="navbar-brand text-warning"  href="#" >ร้านขายยาวุฒิ เภสัช</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
