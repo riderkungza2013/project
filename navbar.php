@@ -6,15 +6,13 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link text-light bg-dark" href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
+  
+  <div class="collapse navbar-collapse " id="navbarSupportedContent"  >
+    <ul class="navbar-nav mr-auto "  >
+      <li class="nav-item active ">
+        <a class="nav-link text-light bg-dark " href="#" >หน้าหลัก <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-light bg-dark" href="form_login.php">เข้าสู่ระบบ</a>
-      </li>
+    
       <li class="nav-item dropdown ">
         <a class="nav-link dropdown-toggle text-light bg-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
@@ -30,9 +28,10 @@
         <a class="nav-link disabled text-light bg-dark" href="#">Disabled</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+        <a class="nav-link text-light bg-success" href="form_login.php">เข้าสู่ระบบ</a>
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>

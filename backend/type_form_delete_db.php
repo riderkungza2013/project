@@ -14,6 +14,7 @@ $result = mysqli_query($con, $sql) or die ("Error in query: $sql " . mysqli_erro
   
   if($result){
   echo "<script type='text/javascript'>";
+  echo "alert('ลบข้อมูล สำเร็จ!');";
   echo "window.location = 'type.php'; ";
   echo "</script>";
   }

@@ -26,8 +26,8 @@ $row_am = mysqli_fetch_assoc($result);
 
 <table border="2" class="display table table-bordered" id="example1" align="center">
   <thead>
-    <tr class="info">
-    <td>ลำดับ</td>
+    <tr class="btn-secondary">
+    <td>ID</td>
     <td>ประเภท</td>
     <td>แก้ไข</td>
     <td>ลบ</td>

@@ -24,7 +24,7 @@ $row_am = mysqli_fetch_assoc($result);
 
 <table border="2" class="display table table-bordered" id="example1" align="center">
   <thead>
-    <tr class="info">
+    <tr class="btn-secondary">
       <th>ID</th>
       <th>ชื่อผู้ใช้</th>
       <th>ชื่อ</th>
@@ -44,7 +44,7 @@ $row_am = mysqli_fetch_assoc($result);
       <td><?php echo $row_am['a_name']; ?></td>
       <td><a href="admin.php?act=rwd&ID=<?php echo $row_am['a_id']; ?>" class="btn btn-info btn-sm"> รหัสผ่าน </a> </td>
       <td><a href="admin.php?act=edit&ID=<?php echo $row_am['a_id']; ?>" class="btn btn-warning btn-sm"> แก้ไข </a> </td>
-      <td><a href="admin_form_delete_db.php?ID=<?php echo $row_am['a_id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('ยันยันการลบ')">ลบ</a> </td>
+      <td><a href="admin_del_db.php?ID=<?php echo $row_am['a_id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('ยันยันการลบ')">ลบ</a> </td>
       <td><?php echo $row_am['datesave']; ?></td>
     </tr>
 

@@ -24,8 +24,8 @@ $row_am = mysqli_fetch_assoc($result);
 
 <table border="2" class="display table table-bordered" id="example1" align="center">
   <thead>
-    <tr class="info">
-    <td>ลำดับ</td>
+    <tr class="btn-secondary">
+    <td>ID</td>
     <!-- <td>user</td>
     <td>pass</td> -->
     <td>ชื่อ</td>

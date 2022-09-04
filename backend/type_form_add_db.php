@@ -16,7 +16,7 @@ $sql ="INSERT INTO tbl_type
     
     if($result){
       echo "<script>";
-      echo "alert('สำเร็จ');";
+      echo "alert('บันทึกสำเร็จ!!!');";
       echo "window.location ='type.php'; ";
       echo "</script>";
     } else {
