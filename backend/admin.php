@@ -18,8 +18,9 @@
                     สวัสดี คุณ <?php echo $a_name; ?>
                     <!-- Left side column. contains the logo and sidebar -->
                     <?php include('menu_left.php'); ?>
+                    
                 </div>
-
+                
                 <div class="col-md-9">
                     <a href="admin.php?act=add" class="btn-info btn-sm"> เพิ่ม </a>
                     <p></p>
